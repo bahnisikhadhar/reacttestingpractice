@@ -7,7 +7,7 @@ const Application = () => {
     <h2>Section 1</h2>
     <p>All fields are mandatory</p>
     <span title='close'>X</span>
-    <img src="https://www.lifeofpix.com/wp-content/uploads/2018/04/275-ake6418-jj-jite-001-1600x1000.jpg" alt="person with laptop" />
+    <img src="https://www.lifeofpix.com/wp-content/uploads/2018/04/275-ake6418-jj-jite-001-1600x1000.jpg" alt="person with laptop" width="400px" />
     <div data-testid="custom-element">Custom Html Element</div>
    <form>
     <div>
@@ -17,6 +17,7 @@ const Application = () => {
         id='name' 
         placeholder='fullname'
         value= "Bahni"
+        onChange={()=>{}}
         />
     </div>
     <div>  
